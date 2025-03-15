@@ -1,0 +1,13 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 64 64" 
+    width="64" 
+    height="64">
+    <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Контур бутылки -->
+        <path d="M22 10h20v10H22z" fill="none"/>
+        <path d="M24 20h16l4 8v24a8 8 0 0 1-8 8h-8a8 8 0 0 1-8-8V28z" fill="none"/>
+        <path d="M32 10V4" stroke="#FFFFFF" stroke-width="4"/>
+        <circle cx="32" cy="42" r="6" fill="none"/>
+    </g>
+</svg>

@@ -404,6 +404,32 @@ li {
   text-align: right;
   min-width: 80px;
 }
+/* allergens style */
+.allergen-list {
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+.allergen-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #be9e55;
+  padding: 10px 0;
+}
+.allergen-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.allergen-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.allergen-description {
+  font-size: 14px;
+  color: #7d7d7d;
+}
 @media (max-width: 900px) {
   .logo img {
     width: 200px;
