@@ -216,10 +216,65 @@ li {
   font-family: "Marck Script", cursive;
   color: var(--primary-color);
 }
+.foodTime {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* food menu */
+
+.menuFood {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.menuFood h1 {
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+.menuFood h2 {
+  font-family: "Marck Script", cursive;
+  font-size: 24px;
+
+  color: var(--primary-color);
+  margin-top: 30px;
+}
+
+.menuFood ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menuFood li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.sub-item {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  color: rgb(204, 203, 203);
+  padding-left: 20px;
+  border: none;
+}
+
+.menuFood .prices {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: var(--primary-color);
+}
+
 /* footer starts */
 .footer {
-  background-color: black;
-
+  background-color: #111111;
   width: 100%;
   height: 100%;
   margin: auto;
@@ -265,6 +320,7 @@ li {
 .hours {
   margin-bottom: 0px;
 }
+
 .footer .social-icons {
   color: white;
   margin-top: 20px;
@@ -289,6 +345,25 @@ li {
   font-family: "Marck Script", cursive;
   color: var(--primary-color);
   text-align: center;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 0;
+}
+
+.name {
+  flex: 1;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.price {
+  text-align: right;
+  min-width: 80px;
 }
 @media (max-width: 900px) {
   .logo img {
@@ -367,9 +442,21 @@ li {
     font-size: 15px;
   }
   .caffeList {
-    margin-left: 25px;
+    margin-left: 10px;
   }
   .cocktailList {
-    margin-left: 25px;
+    margin-left: 10px;
+  }
+  .menuFood ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menuFood li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0;
   }
 }
