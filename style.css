@@ -28,7 +28,7 @@ body {
   text-decoration: none;
   color: whitesmoke;
   transition: all 0.3s ease;
-  padding-right: 400px;
+  padding-right: 350px;
 }
 .homeBtn:hover {
   cursor: pointer;
@@ -173,9 +173,17 @@ li {
 }
 .caffeList {
   padding-bottom: 30px;
-  margin-left: 95px;
+  margin-left: 0px;
+}
+.foodList {
+  padding-bottom: 30px;
+}
+.foodList ul {
+  color: whitesmoke;
+  display: inline;
 }
 .shishaList {
+  padding-left: 65px;
   padding-bottom: 30px;
 }
 .cocktailList ul {
@@ -183,7 +191,7 @@ li {
   display: inline;
 }
 .cocktailList {
-  margin-left: 95px;
+  margin-left: 60px;
   padding-bottom: 30px;
 }
 
@@ -379,11 +387,20 @@ li {
     transition: all 0.3s ease;
     cursor: pointer;
   }
+  .language {
+    margin-top: 20px;
+  }
   .homeBtn {
     padding-right: 240px;
   }
   .shishaContainer {
     padding: 10px 20px;
+  }
+  .foodContainer {
+    padding: 20px 30px 5px 30px;
+  }
+  .softContainer {
+    padding: 20px 30px 5px 30px;
   }
 
   .divider {
@@ -440,6 +457,10 @@ li {
   .shishaList li {
     display: block;
     font-size: 15px;
+  }
+  .shishaList {
+    padding-left: 20px;
+    padding-bottom: 30px;
   }
   .caffeList {
     margin-left: 10px;
