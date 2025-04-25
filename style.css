@@ -410,6 +410,10 @@ li {
   margin: auto;
   font-family: Arial, sans-serif;
 }
+.allergyP {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .allergen-item {
   display: flex;
   align-items: center;
@@ -525,5 +529,9 @@ li {
     font-size: 18px;
     font-weight: bold;
     padding: 5px 0;
+  }
+  .allergyP {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
